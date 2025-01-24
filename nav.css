@@ -1,0 +1,35 @@
+nav {
+    background-color: #111111;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav .menu-esquerda p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+nav .menu-direita {
+    display: flex;
+    gap: 35px;
+}
+
+nav .menu-direita a {
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+nav .menu-direita a:hover {
+    color: rgb(63, 63, 225);
+    border-bottom: 1px solid white;
+    transition: 0.4s ease-in-out;
+    font-size: 17px;
+}
+
+
