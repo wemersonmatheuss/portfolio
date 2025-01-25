@@ -35,6 +35,7 @@
 }
 
 .dobra1-esquerda img:hover {
+    transition: 0.4s;
     height: 33px;
 }
 
