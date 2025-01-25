@@ -1,0 +1,47 @@
+.dobra1 {
+    margin-inline: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.dobra1-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dobra1-esquerda h1 {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.dobra1-esquerda h1 span {
+    color: #007bff;
+}
+
+.dobra1-esquerda .dobra1-images {
+    display: flex;
+    gap: 6px;
+}
+
+.dobra1-esquerda a {
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding: 4px;
+}
+
+.dobra1-esquerda img:hover {
+    height: 33px;
+}
+
+.dobra1-esquerda img {
+    height: 30px;
+}
+
+.dobra1 .dobra1-direita img {
+    height: 400px;
+}
