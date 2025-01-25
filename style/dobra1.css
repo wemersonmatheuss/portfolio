@@ -53,3 +53,21 @@
     align-items: center;
     margin-top: 30px;
 }
+
+.dobra1 .dobra1-esquerda .download-curriculo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dobra1 .dobra1-esquerda .download-curriculo button{
+    color: white;
+    background-color: #007bff;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
