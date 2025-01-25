@@ -1,4 +1,4 @@
-.dobra1 {
+.principal {
     margin-inline: 200px;
     display: flex;
     justify-content: space-between;
@@ -6,44 +6,44 @@
     margin-top: 90px;
 }
 
-.dobra1-esquerda {
+.principal-esquerda {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.dobra1-esquerda h1 {
+.principal-esquerda h1 {
     font-family: "Roboto", serif;
     font-weight: 500;
     font-size: 45px;
 }
 
-.dobra1-esquerda h1 span {
+.principal-esquerda h1 span {
     color: #007bff;
 }
 
-.dobra1-esquerda .dobra1-images {
+.principal-esquerda .dobra1-images {
     display: flex;
     gap: 6px;
 }
 
-.dobra1-esquerda a {
+.principal-esquerda a {
     display: flex;
     align-items: center;
     width: auto;
     padding: 4px;
 }
 
-.dobra1-esquerda img:hover {
+.principal-esquerda img:hover {
     transition: 0.4s;
     height: 33px;
 }
 
-.dobra1-esquerda img {
+.principal-esquerda img {
     height: 30px;
 }
 
-.dobra1 .dobra1-direita img {
+.principal .principal-direita img {
     height: 400px;
 }
 
@@ -54,14 +54,14 @@
     margin-top: 30px;
 }
 
-.dobra1 .dobra1-esquerda .download-curriculo {
+.principal .principal-esquerda .download-curriculo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.dobra1 .dobra1-esquerda .download-curriculo button{
+.principal .principal-esquerda .download-curriculo button{
     color: white;
     background-color: #007bff;
     font-family: "Roboto", serif;
@@ -70,4 +70,8 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+
+.principal-images {
+    display: flex;
 }
