@@ -16,3 +16,7 @@
     --color-button: #007bff;
     --font: "Roboto", serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}

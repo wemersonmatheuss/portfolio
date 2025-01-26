@@ -32,4 +32,8 @@ nav .menu-direita a:hover {
     font-size: 17px;
 }
 
+nav .menu-direita a:focus {
+    transition: 5s;
+}
+
 
