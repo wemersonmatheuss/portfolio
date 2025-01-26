@@ -34,4 +34,5 @@
 
 .habilidades .images-habilidades img:hover {
     width: 220px;
+    transition: 0.7s ease-in-out;
 }
