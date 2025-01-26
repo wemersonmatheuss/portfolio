@@ -9,6 +9,7 @@
 .projetos .titulo-projetos h2 {
     font-family: var(--font);
     color: var(--color-titulo);
+    font-size: 30px;
 }
 
 .projetos .conteudo-projetos {
