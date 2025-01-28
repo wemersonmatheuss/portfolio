@@ -5,6 +5,11 @@
     color: white;
 }
 
+html, body {
+    overflow-x: hidden; /* Esconde qualquer rolagem horizontal */
+    width: 100%;
+  }
+
 .container {
     background-color: #2a2c2e;
     display: flex;
