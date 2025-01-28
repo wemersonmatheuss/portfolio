@@ -36,4 +36,29 @@ nav .menu-direita a:focus {
     transition: 5s;
 }
 
+nav .menu-responsivo {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    nav .menu-esquerda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav .menu-direita {
+        display: none;
+    }
+
+    nav .menu-responsivo {
+        display: block;
+    }
+
+    nav .menu-responsivo img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 
