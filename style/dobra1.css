@@ -78,9 +78,26 @@
 
 @media screen and (max-width: 1200px) {
     .principal {
-        margin: 110px 0 0 0;
+        margin: 70px 0 0 0;
         flex-direction: column;
+        justify-content: center;
         gap: 30px;
-
     }
+
+    .principal .principal-esquerda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .principal .principal-esquerda h1 {
+        font-size: 35px;
+    }
+
+    .principal .principal-esquerda .download-curriculo button {
+        padding: 9px;
+    }
+
 }
