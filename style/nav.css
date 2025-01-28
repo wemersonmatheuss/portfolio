@@ -41,6 +41,10 @@ nav .menu-responsivo {
 }
 
 @media screen and (max-width: 1200px) {
+    nav {
+        padding: 15px 25px;
+    }
+
     nav .menu-esquerda {
         display: flex;
         justify-content: center;
