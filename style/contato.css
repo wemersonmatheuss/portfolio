@@ -48,3 +48,22 @@ button {
     height: 100px;
 }
 
+@media screen and (max-width: 1200px){
+    .formulario {
+        margin-top: 150px;
+        margin-bottom: 30px;
+        padding: 0 20px; /* Adiciona espaço nas laterais */
+    }
+
+    form {
+        width: 100%;
+        max-width: 400px; /* Define um tamanho máximo para o formulário */
+    }
+
+    input {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+}
+
