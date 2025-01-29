@@ -32,7 +32,34 @@
     height: auto;
 }
 
+.habilidades .images-habilidades-geral .images-habilidades .imagem-alterada {
+    width: 110px;
+    height: auto;
+}
+
 .habilidades .images-habilidades img:hover {
     width: 220px;
     transition: 0.7s ease-in-out;
+}
+
+@media  screen and (max-width: 1200px) {
+    .habilidades .images-habilidades-geral {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .habilidades .images-habilidades {
+        width: 60px;
+    }
+
+    .habilidades .images-habilidades-geral .images-habilidades img {
+        width: 100px;
+        height: auto;
+    }
+
+    .habilidades .images-habilidades-geral .images-habilidades .imagem-alterada {
+        width: 50px;
+        height: auto;
+    }
+
 }
