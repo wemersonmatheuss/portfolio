@@ -8,9 +8,16 @@
 html, body {
     overflow-x: hidden; /* Esconde qualquer rolagem horizontal */
     width: 100%;
+    background-color: #121212;
+
 }
 
 .main-container {
     height: 100vh;
-    background-color: #121212;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 4.125rem;
 }
