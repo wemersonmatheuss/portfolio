@@ -8,20 +8,5 @@
 html, body {
     overflow-x: hidden; /* Esconde qualquer rolagem horizontal */
     width: 100%;
-  }
-
-.container {
-    background-color: #2a2c2e;
-    display: flex;
-    flex-direction: column;
 }
 
-:root {
-    --color-titulo: #007bff;
-    --color-button: #007bff;
-    --font: "Roboto", serif;
-}
-
-html {
-    scroll-behavior: smooth;
-}
