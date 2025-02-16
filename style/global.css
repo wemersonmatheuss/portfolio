@@ -10,3 +10,7 @@ html, body {
     width: 100%;
 }
 
+.main-container {
+    height: 100vh;
+    background-color: #121212;
+}
