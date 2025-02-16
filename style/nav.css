@@ -1,5 +1,10 @@
 .main-container {
     display: flex;
+    flex-direction: column;
+}
+
+.detail {
+    display: flex;
 }
 
 .social-network {
@@ -38,13 +43,21 @@
 }
 
 nav {
-    height: 5.8125rem;
+    height: auto;
     display: flex;
-    align-items: center;
     width: 100%;
+    padding-top: 1.875rem;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
     justify-content: space-between;
+    width: 100%;
     padding-right: 1.875rem;
     padding-left: 1.25rem;
+    align-items: center;
+
 }
 
 .left h3 {
@@ -79,5 +92,65 @@ span {
     transition: 0.6s;
 }
 
+.initial {
+    margin-top: 2.625rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 7.875rem 13.625rem;
+    width: 90%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    line-height: 100%;
+    animation-name: move;
+    animation-duration: 3s;
+}
+
+.title h1:nth-child(2) {
+    margin-left: 50%;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+
+.detail-initial {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.image-initial img {
+    width: 21.875rem;
+    height: 21.875rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image-initial {
+    animation-name: moveimg;
+    animation-duration: 3s;
+}
+
+@keyframes move {
+    
+    0% {
+        transform: translateX(300px);
+    }
+}
+
+@keyframes moveimg {
+    0% {
+        transform: translateX(100px) rotate(40deg);
+    }
+}
 
 
