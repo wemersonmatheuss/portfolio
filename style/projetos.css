@@ -107,6 +107,10 @@
     animation-range: cover 0% cover 50%;
 }
 
+.image-mobile-projects {
+    display: none;
+}
+
 
 @keyframes movewm {
     from {
@@ -141,6 +145,41 @@
     to {
         opacity: 1;
         translate: 0.0;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .projects {
+        margin-top: 80px;
+        flex-direction: column;
+    }
+
+    .exemple-project {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .description-project {
+        width: 100%;
+    }
+
+    .exemple-project img {
+        width: 300px;
+    }
+
+    .exemple-project:nth-child(3) img:nth-child(3) {
+        display: none;
+    }
+
+    .image-mobile-projects {
+        display: block;
+
+    }
+
+    .image-mobile-projects img:nth-child(1) {
+        width: 300px;
     }
 }
 
