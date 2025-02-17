@@ -5,36 +5,36 @@ footer {
 }
 
 .contact-footer {
-    margin-top: 60px;
+    margin-top: 3.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .description-contact {
-    width: 532px;
+    width: 33.25rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem
 }
 
 .description-contact p {
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
 }
 
 .title-contact h2 {
     font-family: "Poppins", sans-serif;
-    font-size: 54px;
+    font-size: 3.375rem;
     font-weight: 600;
     color: #007bff;
 }
 
 form {
-    width: 480px;
+    width: 30rem;
 }
 
 fieldset {
@@ -42,14 +42,14 @@ fieldset {
     display: flex;
     flex-direction: column;
     border: none;
-    gap: 15px;
+    gap: 0.9375rem;
 }
 
 input {
     border: none;
     outline: none;
-    padding: 13px 16px;
-    border-radius: 8px;
+    padding: 0.8125rem 1rem;
+    border-radius: 0.5rem;
     color: black;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -59,13 +59,54 @@ input {
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.3125rem;
 }
 
 label {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     opacity: 80%;
 }
+
+.rights {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4.625rem;
+}
+
+.rights a {
+    text-decoration: none;
+}
+
+.rights p {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.4375rem;
+}
+
+button {
+    width: 10.3125rem;
+    height: 3.125rem;
+    border-radius: 0.625rem;
+    color: white;
+    background-color: #007bff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
 
