@@ -59,3 +59,35 @@
         translate: 0.0;
     }
 }
+
+@media screen and (max-width: 1400px) {
+    main {
+        padding-inline: 10px;
+    }
+    
+    .about {
+        margin-top: 110px;
+        width: 100%;
+    }
+
+    .about-me {
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .image-about-me img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .description-about-me {
+        width: 100%;
+    }
+
+    .description-about-me p {
+        font-size: 16px;
+        text-align: center;
+    }
+}
