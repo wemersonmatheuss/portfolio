@@ -1,0 +1,145 @@
+.projects {
+    border: 1px solid red;
+    padding-inline: 1.875rem;
+}
+
+.title-projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.9375rem;
+}
+
+.title-projects h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3.375rem;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.my-projects {
+    margin-top: 3.75rem;
+}
+
+.exemple-project {
+    display: flex;
+    justify-content: center;
+    gap: 2.6875rem;
+    padding-block: 1.875rem;
+}
+
+.exemple-project img {
+    border: 2px solid white;
+}
+
+.exemple-project:nth-child(1) img {
+    border: none;
+}
+
+.description-project {
+    width: 32.5625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+.description-project h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #007bff;
+}
+
+.description-project p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.description-project a {
+    text-decoration: none;
+    background-color: #007bff;
+    border-radius: 0.625rem;
+    color: white;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    width: 13.4375rem;
+    height: 3.125rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-project {
+    width: 100%;
+    background-color: white;
+    height: 3px;
+    margin-top: 0.625rem;
+    border: 2px;
+    margin-bottom: 0.625rem;
+}
+
+
+.description-project a:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.exemple-project:nth-child(1) {
+    animation: movewm ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+.exemple-project:nth-child(3) {
+    animation: movelinkbio ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+.exemple-project:nth-child(5) {
+    animation: movemario ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+
+@keyframes movewm {
+    from {
+        opacity: 0;
+        translate: -31.25rem 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0.0;
+    }
+}
+
+@keyframes movelinkbio {
+    from {
+        opacity: 0;
+        translate: 31.25rem 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0.0;
+    }
+}
+
+@keyframes movemario {
+    from {
+        opacity: 0;
+        translate: -31.25rem 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0.0;
+    }
+}
+
