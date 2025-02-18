@@ -47,11 +47,11 @@
 
 @media screen and (max-width: 1400px) {
     .skills {
-        margin-top: 110px;
+        margin-top: 6.875rem;
     }
 
     .skills-flex img {
-        width: 100px;
+        width: 6.25rem;
         height: auto;
         
     }

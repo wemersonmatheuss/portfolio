@@ -171,12 +171,12 @@ span {
 
 @media screen and (max-width: 1400px) {
     nav {
-        padding-right: 30px;
-        padding-top: 10px;
+        padding-right: 1.875rem;
+        padding-top: 0.625rem;
     }
 
     .left h3 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .social-links {
@@ -185,7 +185,10 @@ span {
 
     .icon-nav {
         display: block;
-        margin-right: 30px;
+        margin-right: 1.875rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
 
     .icon-nav img {
@@ -195,30 +198,31 @@ span {
     
 
     .menu {
-        padding: 10px;
+        padding: 0.625rem;
         width: 100%;
-        gap: 50px;
+        gap: 3.125rem;
         align-items: center;
         justify-content: center;
+        margin-top: 0.625rem;
     }
 
     .social-network {
-        margin-left: 10px;
+        margin-left: 0.625rem;
     }
 
 
 
     .detail-initial {
         flex-direction: column;
-        padding-left: 10px;
-        margin-top: 50px;
+        padding-left: 0.625rem;
+        margin-top: 3.125rem;
     }
 
     .initial {
         padding-inline: 0;
         flex-direction: column;
         justify-content: center;
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     .title {
@@ -227,7 +231,7 @@ span {
     }
 
     .title h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .title h1:nth-child(2) {
@@ -240,8 +244,8 @@ span {
     }
 
     .image-initial img {
-        width: 200px;
-        height: 200px;
+        width: 12.5rem;
+        height: 12.5rem;
     }
 }
     

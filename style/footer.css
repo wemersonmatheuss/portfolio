@@ -109,10 +109,42 @@ button:hover {
     cursor: pointer;
 }
 
+.container-menu {
+    position: relative;
+    display: inline-block;
+    display: none;
+}
+
+.icon-nav {
+    cursor: pointer;
+}
+
+
+.menu-itens {
+    position: absolute;
+    background-color: #1e1e1e;
+    top: 3.4375rem;
+    right: -1.125rem;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 5px;
+    z-index: 100;
+}
+
+.menu-itens a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 1.125rem;
+    display: block;
+    padding: 3px 0;
+}
+
+
 @media screen and (max-width: 1400px) {
     .contact-footer {
         flex-direction: column;
-        padding-inline: 15px;
+        padding-inline: 0.9475rem;
         justify-content: center;
         align-items: center;
     }
@@ -139,7 +171,11 @@ button:hover {
     }
 
     .title-contact h2 {
-        font-size: 35px;
+        font-size: 2.1875rem;
+    }
+
+    .container-menu {
+        display: block;
     }
 }
 

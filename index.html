@@ -40,22 +40,32 @@
                 </a>
             </div>
 
-            <nav>
+            <nav id="initial">
                 <div class="menu">
                     <div class="left">
                         <h3><span>Wemerson</span> Matheus</h3>
                     </div>
 
                     <div class="social-links">
-                        <a href="#"><span><</span>Início<span>></span></a>
-                        <a href="#"><span><</span>Sobre<span>></span></a>
-                        <a href="#"><span><</span>Habilidades<span>></span></a>
-                        <a href="#"><span><</span>Projetos<span>></span></a>
-                        <a href="#"><span><</span>Contato<span>></span></a>
+                        <a href="#initial"><span><</span>Início<span>></span></a>
+                        <a href="#about"><span><</span>Sobre<span>></span></a>
+                        <a href="#skills"><span><</span>Habilidades<span>></span></a>
+                        <a href="#projects"><span><</span>Projetos<span>></span></a>
+                        <a href="#contact"><span><</span>Contato<span>></span></a>
                     </div>
 
-                    <div class="icon-nav">
-                        <img src="./assets/menu2.0.png" alt="">
+                    <div class="container-menu">
+
+                        <div class="icon-nav" id="icon-nav">
+                            <img src="./assets/menu2.0.png" alt="">
+                        </div>
+                        <div class="menu-itens" id="menu-itens">
+                            <a href="#initial">Início</a>
+                            <a href="#about">Sobre</a>
+                            <a href="#skills">Habilidades</a>
+                            <a href="#projects">Projetos</a>
+                            <a href="#contact">Contato</a>
+                        </div>
                     </div>
                 </div>
                 
@@ -76,7 +86,7 @@
         </div>
 
         <main>
-            <section class="about">
+            <section class="about" id="about">
                 <div class="title-about">
                     <h2>Sobre</h2>
                 </div>
@@ -93,7 +103,7 @@
                 </div>
             </section>
 
-            <section class="skills">
+            <section class="skills" id="skills">
                 <div class="title-skills">
                     <h2>Habilidades</h2>
                 </div>
@@ -121,7 +131,7 @@
                 </div>
             </section>
 
-            <section class="projects">
+            <section class="projects" id="projects">
                 <div class="title-projects">
                     <h2>Projetos</h2>
                 </div>
@@ -166,7 +176,7 @@
             </section>
         </main>
 
-        <footer>
+        <footer id="contact">
 
             <div class="contact-footer">
                 <div class="description-contact">
@@ -213,6 +223,8 @@
             </div>
         </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

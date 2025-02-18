@@ -62,24 +62,24 @@
 
 @media screen and (max-width: 1400px) {
     main {
-        padding-inline: 10px;
+        padding-inline: 0.625rem;
     }
     
     .about {
-        margin-top: 110px;
+        margin-top: 6.875rem;
         width: 100%;
     }
 
     .about-me {
         flex-direction: column;
-        gap: 50px;
+        gap: 3.125rem;
         width: 100%;
-        padding: 40px 20px;
+        padding: 2.5rem 1.25rem;
     }
 
     .image-about-me img {
-        width: 200px;
-        height: 200px;
+        width: 12.5rem;
+        height: 12.5rem;
     }
 
     .description-about-me {
@@ -87,7 +87,7 @@
     }
 
     .description-about-me p {
-        font-size: 16px;
+        font-size: 1rem;
         text-align: center;
     }
 }

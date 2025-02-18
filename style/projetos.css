@@ -150,7 +150,7 @@
 
 @media screen and (max-width: 1400px) {
     .projects {
-        margin-top: 80px;
+        margin-top: 5rem;
         flex-direction: column;
     }
 
@@ -158,7 +158,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     .description-project {
@@ -166,7 +166,7 @@
     }
 
     .exemple-project img {
-        width: 300px;
+        width: 18.75rem;
     }
 
     .exemple-project:nth-child(3) img:nth-child(3) {
@@ -179,7 +179,7 @@
     }
 
     .image-mobile-projects img:nth-child(1) {
-        width: 200px;
+        width: 12.5rem;
     }
 }
 
