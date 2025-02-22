@@ -175,6 +175,10 @@ span {
         padding-top: 0.625rem;
     }
 
+    .menu-itens {
+        display: none;
+    }
+
     .left h3 {
         font-size: 1rem;
     }
