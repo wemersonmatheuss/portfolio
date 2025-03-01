@@ -111,6 +111,11 @@
     display: none;
 }
 
+#new-img {
+    width: 536px;
+    height: auto;
+}
+
 
 @keyframes movewm {
     from {
@@ -180,6 +185,11 @@
 
     .image-mobile-projects img:nth-child(1) {
         width: 12.5rem;
+    }
+
+    #new-img {
+        width: 18.75rem;
+        height: auto;
     }
 }
 
