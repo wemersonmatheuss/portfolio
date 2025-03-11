@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     main {
         padding-inline: 0.625rem;
     }

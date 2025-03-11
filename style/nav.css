@@ -169,7 +169,7 @@ span {
     }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     nav {
         padding-right: 1.875rem;
         padding-top: 0.625rem;
