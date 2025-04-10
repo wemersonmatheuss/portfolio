@@ -1,0 +1,37 @@
+main {
+    padding: 44px 132px 44px 47px;
+    display: flex;
+    justify-content: space-between;
+
+    & .text {
+        max-width: 701px;
+    }
+
+    & .text h1 {
+        font-size: 55px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    & .text p {
+        font-size: 20px;
+        font-weight: 400;
+        color: var(--color-secondary);
+        margin-top: 15px;
+    }
+
+    & .text button {
+        border: none;
+        background-color: var(--color-primary);
+        color: #fff;
+        padding: 12px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    & .text button:hover {
+        background-color: #4E3DFF;
+        transition: 0.2s ease-in-out;
+    }
+}
