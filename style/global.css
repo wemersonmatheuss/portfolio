@@ -8,17 +8,10 @@
 html, body {
     overflow-x: hidden; /* Esconde qualquer rolagem horizontal */
     width: 100%;
-    background-color: #121212;
-    scroll-behavior: smooth;
-
 }
 
 .main-container {
     height: 100vh;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    padding-inline: 4.125rem;
-}
+
