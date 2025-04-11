@@ -1,5 +1,6 @@
 
 .services {
+    padding-top: 30px;
 
     & .title-services {
         display: flex;
