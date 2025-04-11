@@ -1,6 +1,7 @@
 .projects {
 
     padding-top: 30px;
+    padding-bottom: 30px;
     & .title-projects {
         display: flex;
         justify-content: center;
