@@ -33,7 +33,7 @@
             </div>
 
             <div class="nav-right">
-                <button>
+                <button onclick="contact()">
                     Entre em contato
                 </button>
             </div>
@@ -49,7 +49,7 @@
                     Está no lugar certo! Desenvolvo web sites interativos e responsivos que transformam sua ideia em realidade. E detalhe, totalmente personalizado    
                 </p>
 
-                <button>
+                <button onclick="contact()">
                     FAÇA JÁ SEU ORÇAMENTO
                 </button>
             </div>
@@ -327,6 +327,40 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="title-contact">
+                <h2>Contato</h2>
+            </div>
+
+            <form action="">
+
+                <div class="form-div">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome">
+                </div>
+
+                <div class="form-div">
+                    <label for="cell">Telefone:</label>
+                    <input type="tel" id="cell" name="cell" placeholder="Digite seu número do WhatsApp">
+                </div>
+
+                <div class="form-div">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu melhor email">
+                </div>
+
+                <div class="form-div">
+                    <label for="subject">Assunto:</label>
+                    <textarea name="subject" id="subject" placeholder="Fale um pouco sobre o assunto a ser tratado"></textarea>
+                </div>
+
+                <div class="button-form">
+                    <button>Enviar</button>
+
+                </div>
+            </form>
         </section>
     </div>
 

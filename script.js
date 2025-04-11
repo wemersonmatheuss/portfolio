@@ -32,3 +32,8 @@ function openRepoProjectFour() {
 function openWindowProjectFour() {
     window.open("https://restaurante-sabor-e-arte-mauve.vercel.app/", "_blank")
 }
+
+// Função para quando apertar no botao de contato descer para a sessao de contato
+function contact() {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth"})
+}
