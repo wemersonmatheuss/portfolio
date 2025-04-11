@@ -1,0 +1,40 @@
+.projects {
+
+    padding-top: 30px;
+    & .title-projects {
+        display: flex;
+        justify-content: center;
+    }
+
+    & .title-projects h2 {
+        font-weight: 500;
+        font-size: 40px;
+    }
+
+    & .all-projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 68px;
+    }
+
+    & .my-projects {
+        max-width: 562px;
+        border: 2px solid var(--stroke-color);
+        background-color: #f7f7f7;
+        border-radius: 10px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        padding-inline: 24px;
+        gap: 18px;
+    }
+
+    & .image-projects {
+        width: 435px;
+        height: auto;
+    }
+}
