@@ -15,19 +15,24 @@
     & .all-services {
 
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
     padding: 44px 97px;
     }
 
     & .my-services {
-        max-width: 562px;
+        max-width: 450px;
         border: 2px solid var(--stroke-color);
         background-color: #f7f7f7;
         border-radius: 10px;
-        padding: 32px 8px 60px 8px;
+        padding: 22px 8px;
         display: flex;
+        gap: 20px;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        text-align: justify;
     }
 
     & .description-services {
