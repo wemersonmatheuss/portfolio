@@ -1,0 +1,59 @@
+footer {
+    display: flex;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    gap: 70px;
+    justify-content: center;
+    
+
+    & .name-left p {
+        font-weight: 600;
+        font-size: 24px;
+
+        & span {
+            color: var(--color-primary);
+        }
+    }
+
+    & .right {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        & .navigation {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        & .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        & .links {
+            display: flex;
+            flex-direction: column;
+        }
+
+        & .links a {
+            text-decoration: none;
+            color: var(--color-secondary);
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        & .links a:hover {
+            color: var(--color-primary);
+            transition: 0.2s ease-in-out;
+        }
+    }
+    
+
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
