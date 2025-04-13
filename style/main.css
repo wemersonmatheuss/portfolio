@@ -42,11 +42,11 @@ main {
     }
 
     main .text h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     main .text p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     main .text button {
@@ -54,8 +54,7 @@ main {
         font-size: 10px;
     }
 
-    main .image img {
-        width: 100px;
-        height: auto;
+    main .image {
+        display: none;
     }
 }
