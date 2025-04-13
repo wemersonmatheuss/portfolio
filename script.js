@@ -37,3 +37,27 @@ function openWindowProjectFour() {
 function contact() {
     document.getElementById("contact").scrollIntoView({ behavior: "smooth"})
 }
+
+
+const menu = document.querySelector(".menu-icon-mobile")
+const linksMenu = document.querySelector(".nav-quite")
+
+const x = document.querySelector(".x-mobile")
+
+//  Função para qando apetar na imagem do menu aparecer as opções do menu
+menu.addEventListener("click", () => {
+
+    if (linksMenu.style.display === "none") {
+        linksMenu.style.display = "block"
+        x.style.display = "block"
+    }
+    else {
+        linksMenu.style.display = "none"
+        x.style.display = "none"
+    }
+})
+
+x.addEventListener("click", () => {
+    linksMenu.style.display = "none"
+    x.style.display = "none"
+})
