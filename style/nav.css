@@ -77,7 +77,7 @@ nav {
 
 
 
-        /* display: none; */
+        display: none;
     }
 
     nav .nav-right {
@@ -106,13 +106,28 @@ nav {
         height: auto;
     }
 
-   nav .links-menu {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-   }
+    nav .links-menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 40%;
+        left: 40%;
+        gap: 10px;
+    }
+
+    nav .links-menu a {
+        text-decoration: none;
+        color: rgb(232, 229, 229);
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    nav .links-menu a:hover {
+        color: var(--color-primary);
+        transition: 0.2s ease-in-out;
+    }
+
+
 
 }
 
