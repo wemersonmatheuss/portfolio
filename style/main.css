@@ -35,3 +35,27 @@ main {
         transition: 0.2s ease-in-out;
     }
 }
+
+@media screen and (max-width: 500px) {
+    main  {
+        padding: 10px 20px;
+    }
+
+    main .text h1 {
+        font-size: 20px;
+    }
+
+    main .text p {
+        font-size: 12px;
+    }
+
+    main .text button {
+        padding: 8px 13px;
+        font-size: 10px;
+    }
+
+    main .image img {
+        width: 100px;
+        height: auto;
+    }
+}

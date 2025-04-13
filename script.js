@@ -67,4 +67,5 @@ x.addEventListener("click", () => {
 linksMenu.addEventListener("click", () => {
     linksMenu.style.display = "none"
     x.style.display = "none"
+   
 })
