@@ -57,3 +57,23 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 500px) {
+    footer {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 20px;
+
+        & .name-left p {
+            font-size: 18px;
+        }
+
+        & .right {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .copy {
+        font-size: 10px;
+    }
+}
