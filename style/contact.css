@@ -67,3 +67,30 @@
         transition: 0.2s ease-in-out;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .contact {
+        padding: 20px;
+    }
+
+    .contact form {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact form .form-div {
+        width: 100%;
+    }
+
+    .contact form .form-div input {
+        width: 100%;
+    }
+
+    .contact form .form-div textarea {
+        width: 100%;
+    }
+
+    .contact form .button-form {
+        width: 100%;
+    }
+}
