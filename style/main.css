@@ -47,6 +47,7 @@ main {
 
     main .text p {
         font-size: 16px;
+        text-align: justify;
     }
 
     main .text button {
