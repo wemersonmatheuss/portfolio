@@ -74,3 +74,39 @@
         transition: 0.2s ease-in-out;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .projects {
+        padding: 20px;
+    }
+
+    .projects .title-projects h2 {
+        font-size: 25px;
+    }
+
+    .projects .all-projects {
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .projects .all-projects .my-projects {
+        max-width: 100%;
+    }
+
+    .projects .all-projects .my-projects .image-projects img{
+        max-width: 100%;
+    }
+
+    .projects .all-projects .my-projects .title-projects h4 {
+        font-size: 16px;
+    }
+
+    .projects .all-projects .my-projects .description-projects p {
+        font-size: 14px;
+    }
+
+    .projects .all-projects .my-projects .btn-projects button {
+        font-size: 10px;
+        padding: 8px;
+    }
+}
