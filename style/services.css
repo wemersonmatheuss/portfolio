@@ -51,3 +51,32 @@
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .services {
+        padding: 20px;
+    }
+
+    .services .title-services h2 {
+        font-size: 25px;
+    }
+
+    .services .all-services {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .services .all-services .my-services .image-service img {
+        width: 50px;
+        height: auto;
+    }
+
+    .services .all-services .my-services .title-service h4 {
+        font-size: 16px;
+    }
+
+    .services .all-services .my-services .description-service p {
+        font-size: 14px;
+    }
+    
+}

@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 500px) {
     .about {
-        padding: 10px 20px;
+        padding: 20px;
     }
 
     .about .title-about h2 {
@@ -136,6 +136,7 @@
     .about .about-me .text-about .my-skils .skils-circle-text .circle p {
         font-size: 14px;
     }
+    
     
 
 
