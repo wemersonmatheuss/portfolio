@@ -19,6 +19,11 @@ nav {
         gap: 26px;
     }
 
+    & .links-menu{
+        display: flex;
+        gap: 26px;
+    }
+
     & .nav-quite a {
         text-decoration: none;
         color: var(--color-tertyary);
