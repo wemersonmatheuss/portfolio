@@ -85,3 +85,62 @@
         background-color: var(--color-primary);
     }
 }
+
+@media screen and (max-width: 500px) {
+    .about {
+        padding: 10px 20px;
+    }
+
+    .about .title-about h2 {
+        font-size: 30px;
+    }
+
+    .about .title-about p {
+        font-size: 16px;
+    }
+
+    .about .about-me {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .about .about-me .image-about {
+        margin-top: 20px;
+    }
+
+    .about .about-me .image-about img {
+        width: 250px;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .about .about-me .text-about h3 {
+        font-size: 20px;
+    }
+
+    .about .about-me .text-about p {
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 8px;
+    }
+
+    .about .about-me .text-about .skils-about h3 {
+        font-size: 20px;
+    }
+
+    .about .about-me .text-about .my-skils {
+        max-width: 100%;
+        margin-top: 8px;
+    }
+
+    .about .about-me .text-about .my-skils .skils-circle-text .circle p {
+        font-size: 14px;
+    }
+    
+
+
+    
+
+
+    
+}
