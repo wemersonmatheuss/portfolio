@@ -1,6 +1,11 @@
-// Função para abrir o site do Apito de ouro
+// Função pata abir o repositorio do projeto da m10tech
 function openRepoProjectOne() {
-    window.open("https://www.apitodeouro.com.br/", "_blank")
+    window.open("https://github.com/wemersonmatheuss/m10tech", "_blank")
+}
+
+// Função para abrir o site do Apito de ouro
+function openWindowProjectOne() {
+    window.open("https://m10tech.vercel.app/", "_blank")
 }
 
 // Função para abrir o repositorio do projeto W.M Freelancer
