@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import styles from "./styles.module.css";
 
 export function Form() {
@@ -10,12 +10,12 @@ export function Form() {
 
   const [popupAberto, setPopupAberto] = useState(false);
 
-  function handleChange(e) {
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   }
 
-  async function handleSubmit(e) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
 
     const data = new FormData();
@@ -28,8 +28,8 @@ export function Form() {
         method: "POST",
         body: data,
       });
-    } catch (err) {
-      // ignorar erro, porque o popup vai abrir mesmo assim
+    }catch {
+       // ignorar erro, porque o popup vai abrir mesmo assim
     }
 
     setFormData({ nome: "", telefone: "", email: "" });
