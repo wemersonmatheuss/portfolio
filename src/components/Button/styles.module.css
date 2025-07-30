@@ -25,3 +25,8 @@
 .container:hover {
     opacity: 0.6;
 }
+
+.container img {
+    width: 25px;
+    height: 25px;
+}
