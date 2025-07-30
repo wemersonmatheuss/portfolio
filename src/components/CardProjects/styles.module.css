@@ -1,0 +1,31 @@
+.container {
+    max-width: 520px;
+    height: auto;
+
+    background: var(--color-background-secondary);
+
+    border-radius: 10px;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+
+    padding: 25px;
+}
+
+.container .buttons button {
+    padding: 12px 18px;
+}
+
+.container .buttons button img {
+    width: 25px;
+    height: 25px;
+}

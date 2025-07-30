@@ -4,6 +4,8 @@ import styles from "./app.module.css"
 import { Nav } from "./components/Nav"
 import { Hero } from "./components/Hero"
 import { SectionService } from "./components/SectionService"
+import { SectionProject } from "./components/SectionProject"
+import { Form } from "./components/Form"
 
 export function App() {
   return (
@@ -11,6 +13,8 @@ export function App() {
       <Nav />
       <Hero/>
       <SectionService/>
+      <SectionProject/>
+      <Form/>
     </div>
   )
 }

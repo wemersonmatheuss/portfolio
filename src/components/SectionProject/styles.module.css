@@ -3,6 +3,7 @@
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 50px;
 
@@ -16,7 +17,7 @@
     color: #fff;
 }
 
-.container .allServices {
+.container .allProjects {
     width: 100%;
 
     display: flex;
