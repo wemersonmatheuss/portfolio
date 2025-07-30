@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Figtree", sans-serif;
+}
+
+
+:root {
+    --color-background: #101010;
+    --color-background-secondary: #1A1A1A;
+    --color-background-tertiary: #323232;
+    --color-button: linear-gradient(to right, #EA343F 9%, #E50914 100%);
+}
