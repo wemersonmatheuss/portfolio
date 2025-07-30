@@ -16,4 +16,12 @@
     gap: 15px;
 
     text-align: center;
+
+    cursor: pointer;
+
+    transition: opacity 0.3s ease-in-out;
+}
+
+.container:hover {
+    opacity: 0.6;
 }
