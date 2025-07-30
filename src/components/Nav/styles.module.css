@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 0;
+}
+
+.logo img {
+    width: 112px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    transition: color 0.3s ease-in-out;
+}
+
+.links a:hover {
+    color: var(--color-red);
+}
