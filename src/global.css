@@ -27,3 +27,10 @@ body {
 body, html {
     scroll-behavior: smooth;
 }
+
+
+@media screen and (max-width: 860px) {
+    body {
+        padding: 0 80px;
+    }
+}

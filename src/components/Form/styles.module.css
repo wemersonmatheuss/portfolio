@@ -98,3 +98,12 @@ form button:hover {
 
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 860px) {
+    .container h2 {
+        font-size: 28px;
+
+        max-width: 300px;
+    }
+}
