@@ -61,3 +61,8 @@
     flex-wrap: wrap;
 } 
 
+.container .infos .technologys .technology img {
+    width: 66px;
+    height: auto;
+} 
+
