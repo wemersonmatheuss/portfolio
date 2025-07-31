@@ -71,3 +71,30 @@ form button {
 form button:hover {
     opacity: 0.6;
 }
+
+.popup {
+    background: var(--color-button);
+    
+    padding: 12px;
+}
+
+.popup p {
+    font-size: 18px;
+    font-weight: 500;
+    
+    margin-bottom: 15px;
+}
+
+.popup button {
+    background-color: #000;
+    color: #fff;
+
+    border: none;
+    outline: none;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}

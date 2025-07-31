@@ -12,7 +12,7 @@ import figma from "../../assets/figma.svg"
 
 export function About() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="about">
             <h2>Mas afinal, quem é Wemerson?</h2>
 
             <div className={styles.infos}>
