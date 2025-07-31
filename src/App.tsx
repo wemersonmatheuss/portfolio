@@ -6,6 +6,7 @@ import { Hero } from "./components/Hero"
 import { SectionService } from "./components/SectionService"
 import { SectionProject } from "./components/SectionProject"
 import { Form } from "./components/Form"
+import { About } from "./components/About"
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
       <SectionService/>
       <SectionProject/>
       <Form/>
+      <About/>
     </div>
   )
 }
