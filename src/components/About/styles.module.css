@@ -73,3 +73,9 @@
     }    
 }
 
+@media screen and (max-width: 610px) {
+    .container h2 {
+        font-size: 30px;
+    }
+}
+

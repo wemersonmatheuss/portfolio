@@ -71,3 +71,10 @@
 .container .bottom a:hover {
     color: var(--color-red);
 }
+
+@media screen and (max-width: 610px) {
+    .container .top > img {
+        width: 80px;
+        height: auto;
+    }
+}

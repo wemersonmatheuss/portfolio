@@ -29,3 +29,10 @@
     width: 25px;
     height: 25px;
 }
+
+@media screen and (max-width: 610px) {
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

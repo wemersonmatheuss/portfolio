@@ -40,3 +40,20 @@
 .links a:hover {
     color: var(--color-red);
 }
+
+@media screen and (max-width: 730px) {
+    .links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .container {
+        padding: 32px 0;
+    }
+
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+}
