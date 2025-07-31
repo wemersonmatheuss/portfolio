@@ -56,3 +56,9 @@
         padding: 28px 22px;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .container button {
+        padding: 14px 20px;
+    }
+}

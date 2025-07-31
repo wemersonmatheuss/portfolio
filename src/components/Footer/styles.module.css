@@ -78,3 +78,9 @@
         height: auto;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .container .bottom {
+        flex-direction: column;
+    }
+}
