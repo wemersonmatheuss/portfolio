@@ -7,6 +7,7 @@ import { SectionService } from "./components/SectionService"
 import { SectionProject } from "./components/SectionProject"
 import { Form } from "./components/Form"
 import { About } from "./components/About"
+import { Footer } from "./components/Footer"
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
       <SectionProject/>
       <Form/>
       <About/>
+      <Footer/>
     </div>
   )
 }
