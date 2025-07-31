@@ -34,3 +34,13 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .container {
+        margin-top: 67px;
+    }
+    
+    .container h2 {
+        font-size: 24px;
+    }
+}

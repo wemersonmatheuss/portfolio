@@ -50,3 +50,9 @@
     width: 25px;
     height: 25px;
 }
+
+@media screen and (max-width: 430px) {
+    .container {
+        padding: 28px 22px;
+    }
+}

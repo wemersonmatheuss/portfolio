@@ -112,11 +112,17 @@ form button:hover {
     .container {
         flex-direction: column;
         gap: 30px;
+
+        padding: 30px;
     }
 
     .container h2 {
         text-align: center;
 
         max-width: 100%;
+    }
+
+    form {
+        width: 100%;
     }
 }
