@@ -23,13 +23,13 @@ export function SectionProject() {
                 <CardProjects image={odontoPremium} onClick={() => {
                         window.open("https://odonto-premium.vercel.app/", "_blank")
                     }} onClick2={() => {
-                        window.open("https://github.com/wemersonmatheuss/odonto-premium")
+                        window.open("https://github.com/wemersonmatheuss/m10tech-store")
                     }}
                 />
                 
                 
                 <CardProjects image={m10Tech} onClick={() => {
-                        window.open("https://m10tech.vercel.app/", "_blank")
+                        window.open("https://m10tech-store.vercel.app/", "_blank")
                     }} onClick2={() => {
                         window.open("https://github.com/wemersonmatheuss/m10tech")
                     }}

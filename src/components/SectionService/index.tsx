@@ -19,19 +19,19 @@ export function SectionService() {
                 <CardService icon={landingPage} title="Desenvolvimento de Landing Pages" paragraph="Desenvolvo Landing Pages totalmente únicas, responsivas e adaptadas às suas necessidades — perfeitas para todos os dispositivos."/>
 
 
-                <CardService icon={internet} title="Desenvolvimento de Sites Institucionais" paragraph="Desenvolvo Landing Pages totalmente únicas, responsivas e adaptadas às suas necessidades — perfeitas para todos os dispositivos."/>
+                <CardService icon={internet} title="Desenvolvimento de Sites Institucionais" paragraph="Crio Sites Institucionais únicos, modernos e alinhados à identidade da sua marca — perfeitos para destacar o seu negócio."/>
 
 
-                <CardService icon={sacola} title="Criação de Lojas Online" paragraph="Desenvolvo Landing Pages totalmente únicas, responsivas e adaptadas às suas necessidades — perfeitas para todos os dispositivos."/>
+                <CardService icon={sacola} title="E-commerce" paragraph="Desenvolvo Lojas Virtuais exclusivas, responsivas e otimizadas para vendas — prontas para todos os dispositivos."/>
 
 
-                <CardService icon={inteligenciaArtifical} title="Automações com IA" paragraph="Desenvolvo Landing Pages totalmente únicas, responsivas e adaptadas às suas necessidades — perfeitas para todos os dispositivos."/>
+                <CardService icon={inteligenciaArtifical} title="Automações com IA" paragraph="Implemento Soluções de Automação com IA personalizadas e inteligentes — projetadas para aumentar sua produtividade."/>
 
 
-                <CardService icon={prototipo} title="Prototipação do Seu Negócio" paragraph="Desenvolvo Landing Pages totalmente únicas, responsivas e adaptadas às suas necessidades — perfeitas para todos os dispositivos."/>
+                <CardService icon={prototipo} title="Prototipação do Seu Negócio" paragraph="Realizo Prototipação detalhada e visual do seu negócio — ideal para validar ideias e atrair investidores."/>
 
 
-                <CardService icon={atualizar} title="Atualização de Sites" paragraph="Desenvolvo Landing Pages totalmente únicas, responsivas e adaptadas às suas necessidades — perfeitas para todos os dispositivos."/>
+                <CardService icon={atualizar} title="Atualização de Sites" paragraph="Faço Atualização completa do seu site, tornando-o moderno, rápido e responsivo — pronto para impressionar clientes."/>
             </div>
         </div>
     )
